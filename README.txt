@@ -18,5 +18,5 @@ keywords = te.tfidf(count_container[0], count_container)
 print(keywords)
 >>[("keyword1", 2.1104),("keyword2" 2.0012),("keyword3", 1.8892) ....]
 
-
+The number next to the keyword is 'tfidf' value and the greater the value, the stronger the keyword reflects the topic.
 Thanks, and please contact the author via e-mail for any comment.
