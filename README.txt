@@ -1,7 +1,9 @@
 "topicextractor" extracts topic keywords from documents based on 'TF-IDF' algorithm.
 
-Usage
+"pip install topicextractor"
 
+Example for usage
+=======================================================================
 import topicextractor as te
 
 sample_docs = [["doc1_str"], ["doc2_str"], ["doc3_str"] ....]
@@ -17,6 +19,8 @@ keywords = te.tfidf(count_container[0], count_container)
 
 print(keywords)
 >>[("keyword1", 2.1104),("keyword2" 2.0012),("keyword3", 1.8892) ....]
+
+=======================================================================
 
 The number next to the keyword is 'tfidf' value and the greater the value, the stronger the keyword reflects the topic.
 Thanks, and please contact the author via e-mail for any comment.
